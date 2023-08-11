@@ -1,0 +1,44 @@
+body, html {
+    margin: auto;
+        background: #ffffff url(Fundo.png);  no-repeat right top fixed;
+
+    
+}
+
+#destaque {
+    text-align: center;
+    height: 200px;
+}
+
+
+.item{
+    width: 15%;
+    border: 2px solid rgb(43, 226, 168);
+    float: left;
+    text-align: center;
+    padding: 5%;
+}
+
+#produtos {
+    text-align: justify;
+    height: 200px;
+    clear: both;
+}
+footer {
+    background-color: rgb(0, 213, 255);
+    clear: both;
+    text-align: center;
+    width: 100%;
+    padding: 1px;
+    
+}
+
+footer a {
+    color: aquamarine;
+    font-weight: bolder;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+    color: blue;
+}
